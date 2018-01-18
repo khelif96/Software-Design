@@ -1,0 +1,50 @@
+Inheritance
+    - Hierarchy
+
+Polymorphism
+    - Writes programs that process objects that share the same super class either directly or indirectly
+    - As if they were objects of the super class
+    - Applies in connection with inheritance hierarchies
+
+    * program with the general
+        - Same method call applies to a variety of objects * methods in many forms of output
+
+    * Program in the specific
+        - Can determine the type of the object at execution and act on the object accordingly
+    * Extendability: ""
+        - New  classes can be added to the general portions of the program as long as the new classes are part of the
+            inheritance hierarchy that's processed generally
+
+Classes
+
+     * Abstract classes
+        - USed only as super classes in the inheritance heirarchy
+        - THey cannot be used to instantiate objects
+
+        - <code>Public abstract class className{}</code>
+        - The purpose of the abstract class is to provide common design
+
+* interfaces
+    - Provides definition of standardization
+    - To assign common functionality to the subclasses in the hierarchy
+        - Subclasses don't need to be related
+    - <code> public interface className{}</code>
+    - <code> public class className implements interface{}</code> classes can implements multiple interfaces
+    - <code> public class className extends superClass{}</code> Extends only one superclass
+    - A class can extend only one other class but can implement multiple interfaces
+    - <code>public class className extends abstractClass, implements interface1, interface2 {} </code>
+
+<code>
+    public abstract class Shape{
+        public abstract void draw(){
+           // no implementation is needed
+        }
+    }
+</code>
+Final classes and Final methods
+    - Cannot be extended to create a sub class it cannot be a super Class
+    - All methods is a final class are inherantly final
+    - Cannot be overridden in a subclass
+    - private methods are inherently final
+    - Static methods are also final
+

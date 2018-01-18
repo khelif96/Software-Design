@@ -1,0 +1,28 @@
+Interface
+
+    - A class can implement multiple interfaces
+
+    <code>
+        public interface Shape{
+            public getArea();
+            public getPerimiter;
+        }
+        public interface Position{
+
+        }
+        public interface PositionalShape extends Shape, Position{
+
+        }
+
+        public Class extends Position{
+            Position position = new Position();
+        }
+
+     </code>
+
+     - You can use interface names as a data type the new object you assign the interface name to it is an object of the lcass implementing the interface
+
+
+     HW Problem
+
+     What is the problem with an abstract class implementing an interface?

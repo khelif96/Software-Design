@@ -1,0 +1,21 @@
+Abstract Classes
+    - Abstract classes are used as a superclasses in a class heirachy
+    - Abstract Class may not have abstract methods but if a method in a class is prefaced with "abstract then that class is abstract"
+    - An abstract method has no body and will be overridden in every sub classes of the hierarchy, otherwise the subclass becomes an abstract class
+    - If a class is defined as an abstract class then you can call the constructor only through
+
+
+    <code>
+        public abstract Shape{
+            // instance variables
+                x;
+                y;
+                Color;
+            // Set and get functions
+            // moveTo
+            // draw
+            abstract Draw();
+            abstract area();
+            abstract perimeter();
+        }
+        </code>

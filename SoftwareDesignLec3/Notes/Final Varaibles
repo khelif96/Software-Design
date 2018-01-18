@@ -1,0 +1,7 @@
+Final instance varaibles
+
+private final int x; // can be initialed when declared; if not it must be initialized in every constructor of the class; if not there wil lbe an error
+
+Why is main static?
+    - No objects of the class have been created
+    - JVM -> invoke main method creating the instance of the class

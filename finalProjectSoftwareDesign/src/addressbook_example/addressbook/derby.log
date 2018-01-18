@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Sat Jul 22 23:23:15 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-015d-6d78-6ce6-000006da9fe8 
+on database directory /home/mohamed/IdeaProjects/finalProjectSoftwareDesign/db/addressbook_example/addressbook/addressbook with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/usr/local/java/jdk1.8.0_91/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_91-b14
+user.dir=/home/mohamed/IdeaProjects/finalProjectSoftwareDesign/db/addressbook_example/addressbook
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-51-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jul 22 23:23:32 EDT 2017: Shutting down Derby engine
+----------------------------------------------------------------
+Sat Jul 22 23:23:33 EDT 2017:
+Shutting down instance a816c00e-015d-6d78-6ce6-000006da9fe8 on database directory /home/mohamed/IdeaProjects/finalProjectSoftwareDesign/db/addressbook_example/addressbook/addressbook with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------

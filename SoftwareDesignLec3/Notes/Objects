@@ -1,0 +1,32 @@
+This.reference
+    Every object can a make a reference to itself with the keyword "this"
+        - When an instance method is called for a particular object, the method implictely uses the keyword "this" to
+            refer to the objects instance variable the other methods
+
+    <code>
+        public class Time{
+            // Instance variables
+                private int hours;
+                private int minutes;
+                private int seconds;
+            // Constructors
+            // ![
+                public Time(){
+                    this(0,0,0);
+                }
+                public Time(int hours){
+                    this(hours,0,0);
+                }
+                public Time(int hours, int minutes){
+                    this(hours,minutes,0);
+                }
+
+          //  ]! // these constructors over load the constructor public Time(int hours, int minutes, int seconds);
+
+                public Time(int hours,int minutes,int seconds){
+                    this.hours = hours;
+                    this.minutes = minutes;
+                    this.seconds = seconds;
+                }
+        }
+    </code>

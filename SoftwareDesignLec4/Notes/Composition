@@ -1,0 +1,18 @@
+Composition
+    - When the objects of one class have references to the objects of the other classes
+
+Inheritance
+    - Every Subclass object is an object of the super Class
+        - [Subclass objects] are created by inheriting the attributes of a methods of an existing usper class
+    - Unlike C++ java does not support multiple inheritance in which class is derived from more than one calss
+        - Uses interfaces
+
+See Images/image1.jpg
+Access Modifiers
+    - public members are accessible whenever the program has a reference to an object of that class in any of its subclasses
+        public members are fully inherited in all subclass in the class hierarchy
+    - private members of a super class are accessible from within the class itself
+    - protected members of a class outside the class hierarchy or package are private
+        * Advantages of using protected members is so that other instances of a class can modify other instances but outside
+            classes of different types can not affect the member
+        * It essentially makes is so that methods are public to other objects of the same class but private to outside classes

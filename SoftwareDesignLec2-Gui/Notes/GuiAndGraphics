@@ -1,0 +1,48 @@
+GUI and Graphics
+Chapters 91, 107, 136
+
+import javax.swing
+    - Contains Gui classes that help in creating Guis
+    .JOptionPane
+        - Creates an information Pane  -> messageDialog -> JOptionPane.ShowMessageDialog(parentComponent:,String message)
+        - Creates an input pane -> InputDialog -> JOptionPane.showInputDialog(String input)
+            - Returns a String
+
+
+
+Java Coordinate System
+
+    Point of origin (x,y)
+    Height, Width
+    Object postion (x,y)
+    int height = getHeight();
+    int width = getWidth();
+ <code>
+    import javax.swing.Jpanel;
+    import java.awt.Graphics; // provides several methos for drawing text and shapes to the screen
+
+        .drawLine(x1,y1,x2,y2) // Draws a line from point (x1,y1) to point (x2,y2)
+        .drawRectangle(x,y,w,h) // Draws a rectangle from point (x,y) with width w and height h
+        .drawOval(x,y,w,h) // Draws a oval from point (x,y) width width w and height h
+        .drawPolygon(x,y,h) // Draws a polygon with points x[] y[] and # of sides h
+            - x = [] , y = [] h = int number of sides
+ </code>
+
+ Create a frame to show the panel
+
+ import javax.swing.JFrame
+    - creates a window
+
+ Colors and Decorations
+
+ import java.awt.Color
+    - Contains predefined static color objects
+        eg. BLACK black, BLUE blue, CYAN, cyan
+    - Definition of Colors
+        - RGB (Red, Green, Blue) -> (0-255,0-255,0-255) 0 Being no Representation 255 Being maximum
+
+    - Ways to represent the colors
+        - Use Color Constructors
+            public Color(int r, int g, int b);
+            public Color(float r, float g, float b);
+            public Color(int rgb);

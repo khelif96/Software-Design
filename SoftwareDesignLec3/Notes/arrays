@@ -1,0 +1,24 @@
+Arrays
+
+Memory Address
+
+the type of the array determines amount of memory allocation
+
+# of consecutive bytes depends on the variable type
+
+Can have primitive types and reference types
+
+Arrays are considered to be objects -> reference types
+
+Class Arrays
+    - Provides static methods for common array operations
+    - Array.sort() sorts an array in decreasing order
+    - .binarySearch of a sorted array
+    - .equals compares two arrays
+    - .fill fills an array with values
+
+<code>
+    double[] array = new double[24];
+    Color[] array = new Color[24];
+    methodName(array, otherArguments); // The called method receives a copy of hte reference ot the array
+    methodName(array[5], otherArguments); // The called method receives a copy of the array indexes value

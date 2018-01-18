@@ -1,0 +1,10 @@
+Method Overloading
+
+    - Method of the same name declared in the same class
+        - These methods are distingushied by the signature
+            - Different sets of parameters number, types variables
+            - Not distinguished by the return types
+
+    Arithmetic methods eg. min, max, abs
+        - Each of these methods is overloaded with the different variables
+            - Doubles , ints, floats, longs
